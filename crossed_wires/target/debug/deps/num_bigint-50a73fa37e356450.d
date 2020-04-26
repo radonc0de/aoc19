@@ -1,0 +1,12 @@
+/home/keithl/Documents/RustProjects/manhat_intersect/target/debug/deps/num_bigint-50a73fa37e356450.rmeta: /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs
+
+/home/keithl/Documents/RustProjects/manhat_intersect/target/debug/deps/libnum_bigint-50a73fa37e356450.rlib: /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs
+
+/home/keithl/Documents/RustProjects/manhat_intersect/target/debug/deps/num_bigint-50a73fa37e356450.d: /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs /home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs
+
+/home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/lib.rs:
+/home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/macros.rs:
+/home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/bigint.rs:
+/home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/biguint.rs:
+/home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/algorithms.rs:
+/home/keithl/.cargo/registry/src/github.com-1ecc6299db9ec823/num-bigint-0.2.6/src/monty.rs:

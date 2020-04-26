@@ -1,0 +1,33 @@
+fn main() {
+    let path_one: Vec<&str> = "R8,U5,L5,D3".split(',').collect();
+    let path_two: Vec<&str> = "U7,R6,D4,L4".split(',').collect();
+    let positions_one: Vec<[i64; 2]> = positions(path_one);
+    let positions_two: Vec<[i64; 2]> = positions(path_two);
+    
+    println!("Wire 1 Positions: {:?}", positions_one);
+    println!("Wire 2 Positions: {:?}", positions_two);
+}
+
+fn positions(path: Vec<&str>) -> Vec<[i64; 2]> {
+    let mut positions = vec![[0, 0]];
+    
+    let mut x: i64 = 0;
+    let mut y: i64 = 0;
+
+    for i in path{
+        let times = &i[1..].parse::<i64>().unwrap();
+        for j in 0..*times {
+            match &i[0..1] {
+                "U" => y+=1,
+                "D" => y-=1,
+                "L" => x-=1,
+                "R" => x+=1,
+                _   => println!("Something's wrong here...")
+            }
+            positions.push([x, y]);
+        }
+            
+    }
+
+    positions
+}
