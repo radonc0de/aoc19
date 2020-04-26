@@ -1,1 +1,1 @@
-My solutions to the 2019 Advent of Code challenges in Rust. I'm a little late to this, but I need something to kill some time now. 
+My solutions to the 2019 Advent of Code challenges in Rust. I'm a little late to this, but I need something to kill some time now. I'm still much of a beginner to Rust and programming in general, but I'm hoping that completing these challenges will help me refine my skills and learn new things. 
