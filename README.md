@@ -4,7 +4,9 @@ My solutions to the 2019 Advent of Code challenges in Rust. I'm a little late to
 
 Day 1	| The Tyranny of the Rocket Equation
 
-Day 2	| 
+Day 2	| 1202 Program Alarm 
+	
+	(I reused my Day 2 code for Day 5 so I don't have the original files yet. I'll probably redo it later.) 
 
 Day 3	| Crossed Wires
 
