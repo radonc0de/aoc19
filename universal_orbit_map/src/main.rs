@@ -6,12 +6,16 @@ fn main() {
 
     let orbits: Vec<&str> = file.split_whitespace().collect();
 
-    println!("{:?}", orbits);
 
-    println!("Total orbits = {}", ind_orbits(orbits));
+    println!("{:?}", orbits);
+    
+    let orbits_data = ind_orbits(orbits);
+
+    println!("Total orbits = {}", orbits_data.0);
+    println!("Minimum Transfers = {}", orbits_data.1);
 }
 
-fn ind_orbits(mut orbits: Vec<&str>) -> u64{
+fn ind_orbits(mut orbits: Vec<&str>) -> (u64, u64){
     let mut all_orbits: Vec<Vec<&str>> = Vec::new();
     let mut COM_val: usize = 0;
     let mut COM_index: usize = 0;
@@ -40,7 +44,6 @@ fn ind_orbits(mut orbits: Vec<&str>) -> u64{
 
                 if &i[0..3] == test_str{
                     all_orbits.push(all_orbits[j].to_vec());
-                    //println!("ALL ORBITS: {:?}", all_orbits);
                     println!("Pushing {} to all_orbits[{}]", &i[4..], length);
                     all_orbits[length].push(&i[4..]);
                     indexes_to_remove.push(cur_index);
@@ -58,10 +61,36 @@ fn ind_orbits(mut orbits: Vec<&str>) -> u64{
    
     let mut sum: u64 = 0;
 
-    for k in all_orbits{
+    for k in &all_orbits{
         sum += k.len() as u64;
     }
-
-    sum
+    
+    let mut YOU_vec = Vec::new();
+    for i in &all_orbits {
+        let length = i.len() - 1;
+        if i[length] == "YOU" {
+            YOU_vec = i.to_vec();
+        }
+    }
+    let mut SAN_vec = Vec::new();
+    for i in &all_orbits {
+        let length = i.len() - 1;
+        if i[length] == "SAN" {
+            SAN_vec = i.to_vec();
+        }
+    }
+    
+    let mut transfers;
+    loop{
+        if SAN_vec[0] == YOU_vec[0] {
+            SAN_vec.remove(0);
+            YOU_vec.remove(0);
+        }else{
+            transfers = (SAN_vec.len() - 1 ) + (YOU_vec.len() - 1);
+            break;
+        }
+    }
+    
+    (sum, transfers as u64)
 }
 
